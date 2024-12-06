@@ -1,0 +1,11 @@
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\bin\Debug\API_Test_Method_Delete.exe.config
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\bin\Debug\API_Test_Method_Delete.exe
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\bin\Debug\API_Test_Method_Delete.pdb
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\bin\Debug\Newtonsoft.Json.dll
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\bin\Debug\Newtonsoft.Json.xml
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\obj\Debug\API_Test_Method_Delete.csproj.AssemblyReference.cache
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\obj\Debug\API_Test_Method_Delete.csproj.SuggestedBindingRedirects.cache
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\obj\Debug\API_Test_Method_Delete.csproj.CoreCompileInputs.cache
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\obj\Debug\API_Test_Method_Delete.csproj.CopyComplete
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\obj\Debug\API_Test_Method_Delete.exe
+D:\is1-43\koyushev\API_Test_Method_Delete\API_Test_Method_Delete\obj\Debug\API_Test_Method_Delete.pdb

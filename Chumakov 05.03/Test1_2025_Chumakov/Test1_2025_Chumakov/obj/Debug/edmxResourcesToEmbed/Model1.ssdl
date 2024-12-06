@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user245_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="region">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id_strani" Type="int" />
+  </EntityType>
+  <EntityType Name="roole">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="nazvanie" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Strani">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="nazvanie" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="zapisi">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Familiya" Type="varchar" MaxLength="50" />
+    <Property Name="Imya" Type="varchar" MaxLength="50" />
+    <Property Name="Otchestvo" Type="varchar" MaxLength="50" />
+    <Property Name="data_rozhdenie" Type="date" />
+    <Property Name="id_regiona" Type="int" />
+    <Property Name="id_strani" Type="int" />
+    <Property Name="id_role" Type="int" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Nomer_telephona" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_zapisi_region">
+    <End Role="region" Type="Self.region" Multiplicity="0..1" />
+    <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="region">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="zapisi">
+        <PropertyRef Name="id_regiona" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zapisi_roole">
+    <End Role="roole" Type="Self.roole" Multiplicity="0..1" />
+    <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roole">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="zapisi">
+        <PropertyRef Name="id_role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zapisi_Strani">
+    <End Role="Strani" Type="Self.Strani" Multiplicity="0..1" />
+    <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Strani">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="zapisi">
+        <PropertyRef Name="id_strani" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user245_dbModelStoreContainer">
+    <EntitySet Name="region" EntityType="Self.region" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="roole" EntityType="Self.roole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Strani" EntityType="Self.Strani" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="zapisi" EntityType="Self.zapisi" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_zapisi_region" Association="Self.FK_zapisi_region">
+      <End Role="region" EntitySet="region" />
+      <End Role="zapisi" EntitySet="zapisi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zapisi_roole" Association="Self.FK_zapisi_roole">
+      <End Role="roole" EntitySet="roole" />
+      <End Role="zapisi" EntitySet="zapisi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zapisi_Strani" Association="Self.FK_zapisi_Strani">
+      <End Role="Strani" EntitySet="Strani" />
+      <End Role="zapisi" EntitySet="zapisi" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

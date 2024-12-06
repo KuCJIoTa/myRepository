@@ -1,0 +1,36 @@
+﻿<Window x:Class="Dimi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF App" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Фиолетовая область -->
+        <Button Grid.Column="0" Grid.Row="0" Click="GetFullName_Click" Background="Purple" Margin="10">
+            Get Full Name
+        </Button>
+
+        <!-- Красная область -->
+        <TextBlock Grid.Column="0" Grid.Row="1" x:Name="TextBoxFullName" Foreground="Red" Margin="10">
+            Full Name:
+        </TextBlock>
+
+        <!-- Черная область -->
+        <Button Grid.Column="0" Grid.Row="2" Click="SendTestResult_Click" Background="Black" Margin="10">
+            Send Test Result
+        </Button>
+
+        <!-- Синяя область -->
+        <TextBlock Grid.Column="0" Grid.Row="3" x:Name="TextBoxResult" Foreground="Blue" Margin="10">
+            Test Result:
+        </TextBlock>
+    </Grid>
+</Window>

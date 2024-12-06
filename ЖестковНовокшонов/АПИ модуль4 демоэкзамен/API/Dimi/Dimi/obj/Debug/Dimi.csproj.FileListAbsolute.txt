@@ -1,0 +1,54 @@
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.csproj.AssemblyReference.cache
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\MainWindow.baml
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\MainWindow.g.cs
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\App.g.cs
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi_MarkupCompile.cache
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.g.resources
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.Properties.Resources.resources
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.csproj.GenerateResource.cache
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.csproj.CoreCompileInputs.cache
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\bin\Debug\Dimi.exe.config
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\bin\Debug\Dimi.exe
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\bin\Debug\Dimi.pdb
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.exe
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.pdb
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Гость.B302-06.004\Desktop\Dimi\Dimi\obj\Debug\Dimi.csproj.CopyComplete
+D:\!!!ИС1-43\API\Dimi\Dimi\bin\Debug\Dimi.exe.config
+D:\!!!ИС1-43\API\Dimi\Dimi\bin\Debug\Dimi.exe
+D:\!!!ИС1-43\API\Dimi\Dimi\bin\Debug\Dimi.pdb
+D:\!!!ИС1-43\API\Dimi\Dimi\bin\Debug\Newtonsoft.Json.dll
+D:\!!!ИС1-43\API\Dimi\Dimi\bin\Debug\Newtonsoft.Json.xml
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.csproj.AssemblyReference.cache
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.csproj.SuggestedBindingRedirects.cache
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\MainWindow.baml
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\MainWindow.g.cs
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\App.g.cs
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi_MarkupCompile.cache
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.g.resources
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.Properties.Resources.resources
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.csproj.GenerateResource.cache
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.csproj.CoreCompileInputs.cache
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.csproj.CopyComplete
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.exe
+D:\!!!ИС1-43\API\Dimi\Dimi\obj\Debug\Dimi.pdb
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\bin\Debug\Dimi.exe.config
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\bin\Debug\Dimi.exe
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\bin\Debug\Dimi.pdb
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\bin\Debug\Newtonsoft.Json.dll
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\bin\Debug\Newtonsoft.Json.xml
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.csproj.AssemblyReference.cache
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.csproj.SuggestedBindingRedirects.cache
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\MainWindow.baml
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\MainWindow.g.cs
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\App.g.cs
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi_MarkupCompile.cache
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.g.resources
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.Properties.Resources.resources
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.csproj.GenerateResource.cache
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.csproj.CoreCompileInputs.cache
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.csproj.CopyComplete
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.exe
+D:\is1-43\ЖестковНовокшонов\АПИ модуль4 демоэкзамен\API\Dimi\Dimi\obj\Debug\Dimi.pdb

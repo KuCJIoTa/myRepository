@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="user245_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="region">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="id_strani" Type="int" />
+        </EntityType>
+        <EntityType Name="roole">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="nazvanie" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Strani">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="nazvanie" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="zapisi">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Familiya" Type="varchar" MaxLength="50" />
+          <Property Name="Imya" Type="varchar" MaxLength="50" />
+          <Property Name="Otchestvo" Type="varchar" MaxLength="50" />
+          <Property Name="data_rozhdenie" Type="date" />
+          <Property Name="id_regiona" Type="int" />
+          <Property Name="id_strani" Type="int" />
+          <Property Name="id_role" Type="int" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Nomer_telephona" Type="varchar" MaxLength="50" />
+          <Property Name="password" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_zapisi_region">
+          <End Role="region" Type="Self.region" Multiplicity="0..1" />
+          <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="region">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="zapisi">
+              <PropertyRef Name="id_regiona" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_zapisi_roole">
+          <End Role="roole" Type="Self.roole" Multiplicity="0..1" />
+          <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="roole">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="zapisi">
+              <PropertyRef Name="id_role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_zapisi_Strani">
+          <End Role="Strani" Type="Self.Strani" Multiplicity="0..1" />
+          <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Strani">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="zapisi">
+              <PropertyRef Name="id_strani" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="user245_dbModelStoreContainer">
+          <EntitySet Name="region" EntityType="Self.region" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="roole" EntityType="Self.roole" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Strani" EntityType="Self.Strani" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="zapisi" EntityType="Self.zapisi" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_zapisi_region" Association="Self.FK_zapisi_region">
+            <End Role="region" EntitySet="region" />
+            <End Role="zapisi" EntitySet="zapisi" />
+          </AssociationSet>
+          <AssociationSet Name="FK_zapisi_roole" Association="Self.FK_zapisi_roole">
+            <End Role="roole" EntitySet="roole" />
+            <End Role="zapisi" EntitySet="zapisi" />
+          </AssociationSet>
+          <AssociationSet Name="FK_zapisi_Strani" Association="Self.FK_zapisi_Strani">
+            <End Role="Strani" EntitySet="Strani" />
+            <End Role="zapisi" EntitySet="zapisi" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="user245_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="region">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="id_strani" Type="Int32" />
+          <NavigationProperty Name="zapisi" Relationship="Self.FK_zapisi_region" FromRole="region" ToRole="zapisi" />
+        </EntityType>
+        <EntityType Name="roole">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="nazvanie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="zapisi" Relationship="Self.FK_zapisi_roole" FromRole="roole" ToRole="zapisi" />
+        </EntityType>
+        <EntityType Name="Strani">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="nazvanie" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="zapisi" Relationship="Self.FK_zapisi_Strani" FromRole="Strani" ToRole="zapisi" />
+        </EntityType>
+        <EntityType Name="zapisi">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Imya" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="data_rozhdenie" Type="DateTime" Precision="0" />
+          <Property Name="id_regiona" Type="Int32" />
+          <Property Name="id_strani" Type="Int32" />
+          <Property Name="id_role" Type="Int32" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Nomer_telephona" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="region" Relationship="Self.FK_zapisi_region" FromRole="zapisi" ToRole="region" />
+          <NavigationProperty Name="roole" Relationship="Self.FK_zapisi_roole" FromRole="zapisi" ToRole="roole" />
+          <NavigationProperty Name="Strani" Relationship="Self.FK_zapisi_Strani" FromRole="zapisi" ToRole="Strani" />
+        </EntityType>
+        <Association Name="FK_zapisi_region">
+          <End Role="region" Type="Self.region" Multiplicity="0..1" />
+          <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="region">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="zapisi">
+              <PropertyRef Name="id_regiona" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_zapisi_roole">
+          <End Role="roole" Type="Self.roole" Multiplicity="0..1" />
+          <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="roole">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="zapisi">
+              <PropertyRef Name="id_role" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_zapisi_Strani">
+          <End Role="Strani" Type="Self.Strani" Multiplicity="0..1" />
+          <End Role="zapisi" Type="Self.zapisi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Strani">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="zapisi">
+              <PropertyRef Name="id_strani" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="user245_dbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="region" EntityType="Self.region" />
+          <EntitySet Name="roole" EntityType="Self.roole" />
+          <EntitySet Name="Strani" EntityType="Self.Strani" />
+          <EntitySet Name="zapisi" EntityType="Self.zapisi" />
+          <AssociationSet Name="FK_zapisi_region" Association="Self.FK_zapisi_region">
+            <End Role="region" EntitySet="region" />
+            <End Role="zapisi" EntitySet="zapisi" />
+          </AssociationSet>
+          <AssociationSet Name="FK_zapisi_roole" Association="Self.FK_zapisi_roole">
+            <End Role="roole" EntitySet="roole" />
+            <End Role="zapisi" EntitySet="zapisi" />
+          </AssociationSet>
+          <AssociationSet Name="FK_zapisi_Strani" Association="Self.FK_zapisi_Strani">
+            <End Role="Strani" EntitySet="Strani" />
+            <End Role="zapisi" EntitySet="zapisi" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="user245_dbModelStoreContainer" CdmEntityContainer="user245_dbEntities">
+          <EntitySetMapping Name="region">
+            <EntityTypeMapping TypeName="user245_dbModel.region">
+              <MappingFragment StoreEntitySet="region">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_strani" ColumnName="id_strani" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="roole">
+            <EntityTypeMapping TypeName="user245_dbModel.roole">
+              <MappingFragment StoreEntitySet="roole">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nazvanie" ColumnName="nazvanie" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Strani">
+            <EntityTypeMapping TypeName="user245_dbModel.Strani">
+              <MappingFragment StoreEntitySet="Strani">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nazvanie" ColumnName="nazvanie" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="zapisi">
+            <EntityTypeMapping TypeName="user245_dbModel.zapisi">
+              <MappingFragment StoreEntitySet="zapisi">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Familiya" ColumnName="Familiya" />
+                <ScalarProperty Name="Imya" ColumnName="Imya" />
+                <ScalarProperty Name="Otchestvo" ColumnName="Otchestvo" />
+                <ScalarProperty Name="data_rozhdenie" ColumnName="data_rozhdenie" />
+                <ScalarProperty Name="id_regiona" ColumnName="id_regiona" />
+                <ScalarProperty Name="id_strani" ColumnName="id_strani" />
+                <ScalarProperty Name="id_role" ColumnName="id_role" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Nomer_telephona" ColumnName="Nomer_telephona" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

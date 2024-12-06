@@ -1,0 +1,11 @@
+D:\is1-43\API_Test\API_Test\bin\Debug\API_Test.exe.config
+D:\is1-43\API_Test\API_Test\bin\Debug\API_Test.exe
+D:\is1-43\API_Test\API_Test\bin\Debug\API_Test.pdb
+D:\is1-43\API_Test\API_Test\obj\Debug\API_Test.csproj.AssemblyReference.cache
+D:\is1-43\API_Test\API_Test\obj\Debug\API_Test.csproj.SuggestedBindingRedirects.cache
+D:\is1-43\API_Test\API_Test\obj\Debug\API_Test.csproj.CoreCompileInputs.cache
+D:\is1-43\API_Test\API_Test\obj\Debug\API_Test.exe
+D:\is1-43\API_Test\API_Test\obj\Debug\API_Test.pdb
+D:\is1-43\API_Test\API_Test\bin\Debug\Newtonsoft.Json.dll
+D:\is1-43\API_Test\API_Test\bin\Debug\Newtonsoft.Json.xml
+D:\is1-43\API_Test\API_Test\obj\Debug\API_Test.csproj.CopyComplete

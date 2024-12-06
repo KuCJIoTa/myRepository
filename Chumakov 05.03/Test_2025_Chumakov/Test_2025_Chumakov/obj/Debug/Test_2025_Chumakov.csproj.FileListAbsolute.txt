@@ -1,0 +1,7 @@
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\Test_2025_Chumakov.csproj.AssemblyReference.cache
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\Test_2025_Chumakov.csproj.SuggestedBindingRedirects.cache
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\MainWindow.g.cs
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\RegisterWindow.g.cs
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\App.g.cs
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\Test_2025_Chumakov_MarkupCompile.cache
+D:\is1-43\Chumakov 05.03\Test_2025_Chumakov\Test_2025_Chumakov\obj\Debug\Test_2025_Chumakov_MarkupCompile.lref

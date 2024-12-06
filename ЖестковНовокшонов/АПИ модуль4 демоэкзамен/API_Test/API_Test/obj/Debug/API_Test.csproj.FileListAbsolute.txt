@@ -1,0 +1,11 @@
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\bin\Debug\API_Test.exe.config
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\bin\Debug\API_Test.exe
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\bin\Debug\API_Test.pdb
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\obj\Debug\API_Test.csproj.AssemblyReference.cache
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\obj\Debug\API_Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\obj\Debug\API_Test.csproj.CoreCompileInputs.cache
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\obj\Debug\API_Test.exe
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\obj\Debug\API_Test.pdb
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Гость.B302-05.009\Desktop\API_Test\API_Test\obj\Debug\API_Test.csproj.CopyComplete

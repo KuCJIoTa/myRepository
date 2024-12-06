@@ -1,0 +1,30 @@
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\bin\Debug\Кузнецов С.exe.config
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\bin\Debug\Кузнецов С.exe
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\bin\Debug\Кузнецов С.pdb
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С.csprojAssemblyReference.cache
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\MainWindow.g.cs
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\App.g.cs
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С_MarkupCompile.cache
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С_MarkupCompile.lref
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\MainWindow.baml
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С.g.resources
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов_С.Properties.Resources.resources
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С.csproj.GenerateResource.cache
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С.exe
+D:\ИС1-43\Кузнецов С\Кузнецов С\Кузнецов С\obj\Debug\Кузнецов С.pdb
+D:\is1-43\WPF\Кузнецов С\bin\Debug\Кузнецов С.exe.config
+D:\is1-43\WPF\Кузнецов С\bin\Debug\Кузнецов С.exe
+D:\is1-43\WPF\Кузнецов С\bin\Debug\Кузнецов С.pdb
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.csproj.AssemblyReference.cache
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.csproj.SuggestedBindingRedirects.cache
+D:\is1-43\WPF\Кузнецов С\obj\Debug\MainWindow.g.cs
+D:\is1-43\WPF\Кузнецов С\obj\Debug\App.g.cs
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С_MarkupCompile.cache
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С_MarkupCompile.lref
+D:\is1-43\WPF\Кузнецов С\obj\Debug\MainWindow.baml
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.g.resources
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов_С.Properties.Resources.resources
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.csproj.GenerateResource.cache
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.csproj.CoreCompileInputs.cache
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.exe
+D:\is1-43\WPF\Кузнецов С\obj\Debug\Кузнецов С.pdb
